@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/cd9955ac07.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="nav">
+            <div id="navone" class="navitem active" onclick="nav(event, 'pageone')">
+                <i class="material-icons">home</i>
+            </div>
+            <hr>
+            <div id="navtwo" class="navitem" onclick="nav(event, 'pagetwo')">
+                <i class="material-icons">person</i>
+            </div>
+            <hr>
+            <div id="navthree" class="navitem" onclick="nav(event, 'pagethree')">
+                <i class="material-icons">live_tv</i>
+            </div>
+            <hr>
+            <div id="navfour" class="navitem" onclick="nav(event, 'pagefour')">
+                <i class="material-icons">contact_page</i>
+            </div>
+            <hr>
+            <div id="infobg">
+                <i id="infobtn" class="material-icons favorite">favorite</i>
+            </div>
+        </div>
+        <div id="content-wrapper">
+            <div id="pageone" class="pageitem" style="display: block;">
+                <div class="title">
+                    <h1 class="animate__animated animate__fadeInDown">Kotzen</h1>
+                    <br>
+                    <h2 class="animate__animated animate__fadeInUp">Jugador profesional . Creador de contenido</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="animate__animated animate__bounceInLeft">
+                        <a class="link" href="https://twitch.tv/kotzen" target="_blank">Canal de Twitch
+                            <i class="fab fa-gg" style="
+                                       background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);background-size: cover;
+                                       color: transparent;
+                                       -moz-background-clip: text;
+                                       -webkit-background-clip: text;
+                                       background-clip: text;">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <p id="sample">Inicio</p>
+            </div>
+            <div id="pagetwo" class="pageitem" style="display: none;">
+                <!-- Page Two Content --->
+                <p id="sample">Sobre mi</p>
+            </div>
+            <div id="pagethree" class="pageitem" style="display: none;">
+                <!-- Page Three Content --->
+                <p id="sample">Stream</p>
+            </div>
+            <div id="pagefour" class="pageitem" style="display: none;">
+                <!-- Page Four Content --->
+                <p id="sample">Contacto</p>
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div id="modalheader">Modal<span class="close">&times;</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
