@@ -33,6 +33,14 @@
             </div>
             <hr>
             <div id="navfour" class="navitem" onclick="nav(event, 'pagefour')">
+                <i class="material-icons">emoji_events</i>
+            </div>
+            <hr>
+            <div id="navfour" class="navitem" onclick="nav(event, 'pagefive')">
+                <i class="material-icons">collections</i>
+            </div>
+            <hr>
+            <div id="navfour" class="navitem" onclick="nav(event, 'pagesix')">
                 <i class="material-icons">contact_page</i>
             </div>
             <hr>
@@ -45,7 +53,7 @@
                 <div class="title">
                     <h1 class="animate__animated animate__fadeInDown">Kotzen</h1>
                     <br>
-                    <h2 class="animate__animated animate__fadeInUp">Jugador profesional . Creador de contenido</h2>
+                    <h2 class="animate__animated animate__fadeInUp">Jugador profesional • Creador de contenido</h2>
                     <br>
                     <br>
                     <br>
@@ -62,22 +70,51 @@
                         </a>
                     </div>
                 </div>
-
-
-                <p id="sample">Inicio</p>
+                <p id="copy">Copyright &copy; 2021 • Todos los derechos reservados </p>
             </div>
             <div id="pagetwo" class="pageitem" style="display: none;">
                 <!-- Contenido --->
-                <p id="sample">Sobre mi</p>
+                <h2 id="sample">Sobre mi</h2>
             </div>
             <div id="pagethree" class="pageitem" style="display: none;">
-                <!-- Contenido --->
-                <p id="sample">Stream</p>
+                <h2 id="sample">Stream</h2>
+                <div class="video-container">
+                    <a class="video-slider, videobox">
+                        <div class="video-slide">
+                            <video width="640" height="480" controls autoplay loop>
+                                <source src="media/AT-cm_1108727880.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-slide">
+                            <video width="640" height="480" controls autoplay loop>
+                                <source src="media/AT-cm_1090475974.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-slide">
+                            <video width="640" height="480" controls autoplay loop>
+                                <source src="media/AT-cm_1115821027.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </a>
+                    <button class="video-slider-btn left-side" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="video-slider-btn right-side" onclick="plusDivs(1)">&#10095;</button>
+                </div>
             </div>
             <div id="pagefour" class="pageitem" style="display: none;">
                 <!-- Contenido --->
-                <p id="sample">Contacto</p>
+                <h2 id="sample">Info equipo y torneos</h2>
             </div>
+
+            <div id="pagefive" class="pageitem" style="display: none;">
+                <!-- Contenido --->
+                <h2 id="sample">Galería de imagenes</h2>
+            </div>
+
+            <div id="pagesix" class="pageitem" style="display: none;">
+                <!-- Contenido --->
+                <h2 id="sample">Contacto</h2>
+            </div>
+
             <!-- The Modal -->
             <div id="myModal" class="modal">
                 <!-- Contenido -->
