@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/cd9955ac07.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -59,7 +58,7 @@
                         <h2 class="animate__animated animate__fadeInUp subtitulo2">Creador de contenido</h2>
                     </div>
                     <div class="rounded-social-buttons animate__animated animate__bounceInLeft social">
-                        <a class="social-button facebook" href="https://twitch.tv/kotzen" target="_blank"><i
+                        <a class="social-button twitch" href="https://twitch.tv/kotzen" target="_blank"><i
                                 class="fab fa-twitch" style="
                             background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);background-size: cover;
                             color: transparent;
@@ -131,7 +130,7 @@
             <div id="pagethree" class="pageitem" style="display: none;">
                 <h6 id="sample" class="animate__animated animate__fadeInRight">Clips</h6>
                 <p class="clips animate__animated animate__fadeInLeft">Algunas de mis mejores jugadas</p>
-              
+
                 <div class="video-container">
                     <a class="video-slider, videobox">
                         <div class="video-slide">
@@ -161,7 +160,7 @@
             <div id="pagefive" class="pageitem" style="display: none;">
                 <!-- Contenido --->
                 <h2 id="sample">Galería de imagenes</h2>
-                <div class="container">
+                <div class="container-imagenes">
                     <div class="accordion"
                         style="background-image: url(https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80)">
                     </div>
@@ -187,23 +186,82 @@
                         style="background-image: url(https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80)">
                     </div>
                 </div>
-                <div id="pagesix" class="pageitem" style="display: none;">
-                    <!-- Contenido --->
-                    <h2 id="sample">Contacto</h2>
-                </div>
+            </div>
+            <div id="pagesix" class="pageitem" style="display: none;">
+                <!-- Contenido --->
+                <h6 id="sample" class="animate__animated animate__fadeInRight contactame">Contactame</h6>
+                <div class="contact-container">
+                    <div class="contact-left">
+                        <h6 id="sample">Dejame tu mensaje</h6>
+                        <form class="contact-form">
+                            <div class="single-row">
+                                <input type="text" placeholder="Nombre" class="form-in mr">
+                                <input type="text" placeholder="Apellido" class="form-in ml">
+                            </div>
+                            <div class="multiple-row">
+                                <input type="email" placeholder="Email" class="form-in">
+                                <textarea placeholder="Tu mensaje" class="form-in"></textarea>
+                                <input type="submit" id="submit"><label for="Enviar"><i class="fas fa-paper-plane"
+                                        style="color: aqua;"></i></label>
+                            </div>
 
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-                    <!-- Contenido -->
-                    <div class="modal-content">
-                        <div id="modalheader">Modal<span class="close">&times;</span></div>
+                        </form>
+                    </div>
+                    <div class="contact-right">
+                        <h6>Información de contacto</h6>
+                        <div class="contact-info">
+                            <p><i class="fab fa-discord"></i> Kotzen#6473 </p>
+                            <p><i class="fas fa-envelope-open-text"></i> kotzenfps@gmail.com </p>
+                            <p><i class="fas fa-map-marker-alt"></i> Montevideo, Uruguay</p>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/gastonrdz6/?hl=es-la" target="_blank">
+                                <i class="fab fa-instagram" style="background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);background-size: cover;
+                            color: transparent;
+                            -moz-background-clip: text;
+                            -webkit-background-clip: text;
+                            background-clip: text;"></i></a>
+                            <a href="https://twitch.tv/kotzen" target="_blank"><i class="fab fa-twitch" style="
+                            background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);background-size: cover;
+                            color: transparent;
+                            -moz-background-clip: text;
+                            -webkit-background-clip: text;
+                            background-clip: text;"></i></a>
+                            <a href="https://twitter.com/kotzenfps" target="_blank"><i class="fab fa-twitter" style="
+                            background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);background-size: cover;
+                            color: transparent;
+                            -moz-background-clip: text;
+                            -webkit-background-clip: text;
+                            background-clip: text;"></i></a>
+                            <a href="https://www.youtube.com/c/Kotzenfps" target="_blank"><i class="fab fa-youtube"
+                                    style="
+                            background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);background-size: cover;
+                            color: transparent;
+                            -moz-background-clip: text;
+                            -webkit-background-clip: text;
+                            background-clip: text;"></i></a>
+                        </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
+    </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Contenido -->
+        <div class="modal-content">
+            <div id="modalheader">Modal<span class="close">&times;</span></div>
+        </div>
+    </div>
+    </div>
 
 
-        <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 
