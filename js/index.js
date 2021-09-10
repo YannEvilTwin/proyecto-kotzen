@@ -73,7 +73,7 @@ function showDivs(n) {
 }
 
 // Colores random
-const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
+const colors = ["#5266A4", "#8898DB", "#00ADAD", "#7D98EE", "#E2FFFE"];
 
 const numBalls = 30;
 const balls = [];
