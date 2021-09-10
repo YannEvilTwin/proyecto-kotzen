@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
 
 * {
   margin: 0;
@@ -18,7 +19,7 @@ html {
 
 /*Navbar*/
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Unica One', cursive;
   font-size: 20px;
   color: white;
   text-align: center;
@@ -161,7 +162,7 @@ hr {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Unica One', cursive;
   background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
   background-size: cover;
   color: transparent;
@@ -176,7 +177,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Unica One', cursive;
   background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
   background-size: cover;
   color: transparent;
@@ -198,7 +199,7 @@ h2 {
 }
 
 .punto {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Unica One', cursive;
   background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
   background-size: cover;
   color: transparent;
@@ -219,7 +220,7 @@ h2 {
   color: rgb(0, 238, 255);
   text-align: center;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Unica One', cursive;
   letter-spacing: 1px;
 
 }
@@ -298,7 +299,7 @@ h2 {
 /*Contenido pagina 1*/
 
 .link {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Unica One', cursive;
   background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
   background-size: cover;
   color: transparent;
@@ -450,7 +451,7 @@ margin-bottom: 0.25rem;
   margin-bottom: 25px;
 }
 
-/*Sobre mi*/
+/*Sección Sobre mi*/
 
 .sage {
   position: absolute;
@@ -461,10 +462,16 @@ margin-bottom: 0.25rem;
 .sobre-mi {
   position: absolute;
   width: 50%;
-  height: 50%;
+  height: 100%;
   left: 10%;
-  top: 40%;
- color: aqua;
+  margin-top: 9%;
+  background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 25px;
 }
 
 .kotzen {
@@ -472,8 +479,8 @@ margin-bottom: 0.25rem;
   width: 50%;
   height: 50%;
   left: 10%;
-  top: 20%;
-  font-family: 'Roboto', sans-serif;
+  top: 9%;
+  font-family: 'Unica One', cursive;
   background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
   background-size: cover;
   color: transparent;
@@ -481,10 +488,75 @@ margin-bottom: 0.25rem;
   -webkit-background-clip: text;
   background-clip: text;
   text-transform: uppercase;
-  font-size: 60px;
-
+  font-size: 50px;
 }
 
+
+h5 {
+  font-family: 'Unica One', cursive;
+  background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 26%;
+  margin-left: -30%;
+}
+
+.setup {
+  list-style:none;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 10%;
+  top: 60%;
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+  
+}
+
+ul li {
+  background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 25px;
+}
+
+h6 {
+  font-family: 'Unica One', cursive;
+  background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.clips {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 25%;
+  top: 15%;
+  background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+ font-size: 35px;
+}
 /*Media queries*/
 /*Movil hasta 320px*/
 @media screen and (max-width: 320px) {
