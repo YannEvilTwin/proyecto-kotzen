@@ -562,7 +562,7 @@ h6 {
 
 .contactame {
   position: absolute;
-  left: 45%;
+  left: 43%;
 }
 
 .pagesix {
@@ -580,7 +580,8 @@ h6 {
     width: 900px;
     max-width: 90%;
     box-shadow:  9px 9px 18px #00ADAD, -9px -9px 18px aqua;
-    margin-left: 28%;
+    margin-left: 25%;
+    margin-top: 14%;
 }
 /* Left side Design*/
 .contact-left
