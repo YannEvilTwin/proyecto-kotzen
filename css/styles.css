@@ -636,10 +636,18 @@ margin: 0 10px;
 {
     position: relative;
 }
-#submit
-{
-    display: none;
+
+#submit {
+  background-color: black;
+  border: none;
+  margin-top: 1em;
 }
+
+#submit:hover {
+  background-color: transparent;
+  color: aqua;
+}
+
 #submit + label
 {
     position: absolute;
